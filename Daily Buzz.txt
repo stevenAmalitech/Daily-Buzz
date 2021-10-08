@@ -1,0 +1,33 @@
+$ pwd
+/home/ccuser/workspace/daily-buzz
+$ ls
+business  culture  health  national  technology
+$ cd national/politics/
+$ ls
+elections  policy
+$ mkdir elections
+mkdir: cannot create directory ‘elections’: File exists
+$ cd elections
+$ ls
+candidates.txt  issues.txt
+$ touch candidates.txt issues.txt
+$ cd ../../../
+$ pwd
+/home/ccuser/workspace/daily-buzz
+$ mkdir business
+mkdir: cannot create directory ‘business’: File exists
+$ cd business
+$ ls
+startups
+$ mkdir startups
+mkdir: cannot create directory ‘startups’: File exists
+$ cd startups
+$ cd ../
+$ mkdir startups/disruptors
+mkdir: cannot create directory ‘startups/disruptors’: File exists
+$ touch startups/disruptors/tech.txt
+$ touch startups/disruptors/design.txt
+$ touch startups/disruptors/education.txt
+$ cd ..
+$ pwd
+/home/ccuser/workspace/daily-b
